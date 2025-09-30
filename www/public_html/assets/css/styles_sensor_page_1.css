@@ -1,0 +1,543 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+
+body {
+      margin: 0;
+      height: 100vh;                      
+      display: flex;
+      justify-content: center;             
+      align-items: center;                 
+      background: #43D3ED;
+}
+
+.logo{
+width: 80px;                        
+  height: auto;
+  position: absolute;
+  top: 5%;       
+  left: 5%;      
+  transform: translate(-50%, -50%); 
+}
+
+.herstelle {
+width: 140px;                        
+height: 40px;
+border-radius: 999px;
+position: absolute;
+background-color: #436CED;
+font-size: 14px;
+font-weight: bold;
+text-align: center;
+padding-top: 8px;
+padding-left: 20px;
+color: white;
+border: 2px solid black;
+top: 3%;       
+left: 10%; 
+}
+
+.logo_herstelle {
+width: 26px;                        
+height: 26px;
+position: absolute;
+top: 3.90%;       
+left: 10.60%; 
+}
+
+.ort {
+width: 140px;                        
+height: 40px;
+border-radius: 999px;
+position: absolute;
+background-color: #436CED;
+font-size: 14px;
+font-weight: bold;
+text-align: center;
+padding-top: 8px;
+padding-left: 20px;
+color: white;
+border: 2px solid black;
+top: 3%;       
+left: 22%;
+}
+
+
+.logo_ort {
+width: 14.14px;                        
+height: 14.14px;
+border-radius: 999px;
+position: absolute;
+background-color: white;
+top: 4.75%;       
+left: 23%;
+}
+
+.back_button {
+  position: absolute;
+  top: 90%;        
+  left: 5%; 
+  width: 217px;   
+  height: 40px; 
+  background-color: black;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+}
+
+/* --------------------------------------------------------------------------------------*/
+
+.erste_sensor {
+    box-sizing: content-box;
+    border: 3px solid black;
+    width: 300px;
+    height: 550px;
+    border-radius: 50px;
+    background-color: white;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: 3px 2px 8px rgba(0,0,0,0.5);
+    left: 100px; 
+}
+
+.erste_sensor .logo_sensor {
+  width: 87px;                        
+  height: auto;
+  position: absolute;
+  top: 15%;       
+  left: 50%;      
+  transform: translate(-50%, -50%);    
+}
+
+.erste_sensor .strasse_name_kyiv_1 {
+  position: absolute;
+  width: 173px;                        
+  height: 41px;
+  top: 25%;       
+  left: 19%;
+  text-align: center; 
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #7FC7FF;
+  color: white;
+  border: 1.5px solid black;
+  -webkit-text-stroke: 0.5px black; 
+  padding-top: 8px;   
+  border-radius: 999px;   
+}
+
+.erste_sensor .temp_form {
+  position: absolute;
+  width: 228px;                        
+  height: 258px;
+  top: 38%;       
+  left: 12%;
+  background-color: #D9D9D9;
+  border-radius: 30px;
+}
+
+.erste_sensor .temp_form .weather_logo {
+  position: absolute;
+  top: 15%;       
+  left: 45%;
+  width: 23px;
+  height: 23px;
+}
+
+.erste_sensor .temp_form .background_logo_weather {
+  position: absolute;
+  top: 10.60%;       
+  left: 39.50%;
+  width: 50px;
+  height: 50px;
+  background-color: #636363;
+  border-radius: 100%;
+}
+
+.erste_sensor .temp_form .temp_aktuelle_kyiv_1 {
+  position: absolute;
+  top: 35%;       
+  left: 20%;
+  width: 145px;
+  height: 70px;
+  background-color: #537084;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  -webkit-text-stroke: 1px black; 
+  border-radius: 999px;
+}
+
+.erste_sensor .temp_form .max_text {
+  position: absolute;
+  top: 65%;       
+  left: 35%;
+  color: #DF3537;
+  font-size: 24px;
+  font-weight: bold;
+  width: 50px;
+  height: 50px;
+}
+
+.erste_sensor .temp_form .max_temp_kyiv_1 {
+  position: absolute;
+  top: 78%;       
+  left: 18%;
+  width: 145px;
+  height: 44px;
+  background-color: #537084;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  -webkit-text-stroke: 1px black; 
+  border-radius: 999px;
+}
+
+.erste_sensor .warnung_keine_hitze {
+  position: absolute;
+  top: 90%;       
+  left: 24%;
+  width: 147px;
+  height: 34px;
+  background-color: white;
+  box-shadow: 2px 2px 5px #00FF26;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  padding-left: 20px;
+  padding-top: 5px;
+  color: #00FF26;
+  border-radius: 999px;
+}
+
+.erste_sensor .warnung_hitze {
+  position: absolute;
+  top: 90%;       
+  left: 24%;
+  width: 147px;
+  height: 34px;
+  background-color: white;
+  box-shadow: 2px 2px 5px #FF0000;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  padding-left: 20px;
+  padding-top: 5px;
+  color: #FF0000;
+  border-radius: 999px;
+}
+
+.erste_sensor .keine_hitze_logo {
+  position: absolute;
+  top: 91%;       
+  left: 27%;
+  width: 21px;
+  height: 21px;
+}
+
+
+/* --------------------------------------------------------------------------------------*/
+
+
+.zweite_sensor {
+    box-sizing: content-box;
+    border: 3px solid black;
+    width: 300px;
+    height: 550px;
+    border-radius: 50px;
+    background-color: white;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: 3px 2px 8px rgba(0,0,0,0.5);
+}
+
+.zweite_sensor .logo_sensor {
+  width: 87px;                        
+  height: auto;
+  position: absolute;
+  top: 15%;       
+  left: 50%;      
+  transform: translate(-50%, -50%);    
+}
+
+.zweite_sensor .strasse_name_kyiv_2 {
+  position: absolute;
+  width: 173px;                        
+  height: 41px;
+  top: 25%;       
+  left: 19%;
+  text-align: center; 
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #7FC7FF;
+  color: white;
+  border: 1.5px solid black;
+  -webkit-text-stroke: 0.5px black; 
+  padding-top: 8px;   
+  border-radius: 999px;   
+}
+
+.zweite_sensor .temp_form {
+  position: absolute;
+  width: 228px;                        
+  height: 258px;
+  top: 38%;       
+  left: 12%;
+  background-color: #D9D9D9;
+  border-radius: 30px;
+}
+
+.zweite_sensor .temp_form .weather_logo {
+  position: absolute;
+  top: 15%;       
+  left: 45%;
+  width: 23px;
+  height: 23px;
+}
+
+.zweite_sensor .temp_form .background_logo_weather {
+  position: absolute;
+  top: 10.60%;       
+  left: 39.50%;
+  width: 50px;
+  height: 50px;
+  background-color: #636363;
+  border-radius: 100%;
+}
+
+.zweite_sensor .temp_form .temp_aktuelle_kyiv_2 {
+  position: absolute;
+  top: 35%;       
+  left: 20%;
+  width: 145px;
+  height: 70px;
+  background-color: #537084;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  -webkit-text-stroke: 1px black; 
+  border-radius: 999px;
+}
+
+.zweite_sensor .temp_form .max_text {
+  position: absolute;
+  top: 65%;       
+  left: 35%;
+  color: #DF3537;
+  font-size: 24px;
+  font-weight: bold;
+  width: 50px;
+  height: 50px;
+}
+
+.zweite_sensor .temp_form .max_temp_kyiv_2 {
+  position: absolute;
+  top: 78%;       
+  left: 18%;
+  width: 145px;
+  height: 44px;
+  background-color: #537084;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  -webkit-text-stroke: 1px black; 
+  border-radius: 999px;
+}
+
+.zweite_sensor .warnung_keine_hitze {
+  position: absolute;
+  top: 90%;       
+  left: 24%;
+  width: 147px;
+  height: 34px;
+  background-color: white;
+  box-shadow: 2px 2px 5px #00FF26;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  padding-left: 20px;
+  padding-top: 5px;
+  color: #00FF26;
+  border-radius: 999px;
+}
+
+.zweite_sensor .warnung_hitze {
+  position: absolute;
+  top: 90%;       
+  left: 24%;
+  width: 147px;
+  height: 34px;
+  background-color: white;
+  box-shadow: 2px 2px 5px #FF0000;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  padding-left: 20px;
+  padding-top: 5px;
+  color: #FF0000;
+  border-radius: 999px;
+}
+
+.zweite_sensor .keine_hitze_logo {
+  position: absolute;
+  top: 91%;       
+  left: 27%;
+  width: 21px;
+  height: 21px;
+}
+
+/* --------------------------------------------------------------------------------------*/
+
+.dreite_sensor {
+    box-sizing: content-box;
+    border: 3px solid black;
+    width: 300px;
+    height: 550px;
+    border-radius: 50px;
+    background-color: white;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: 3px 2px 8px rgba(0,0,0,0.5);
+    right: 100px;
+}
+
+.dreite_sensor .logo_sensor {
+  width: 87px;                        
+  height: auto;
+  position: absolute;
+  top: 15%;       
+  left: 50%;      
+  transform: translate(-50%, -50%);    
+}
+
+.dreite_sensor .strasse_name_kyiv_3 {
+  position: absolute;
+  width: 173px;                        
+  height: 41px;
+  top: 25%;       
+  left: 19%;
+  text-align: center; 
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #7FC7FF;
+  color: white;
+  border: 1.5px solid black;
+  -webkit-text-stroke: 0.5px black; 
+  padding-top: 8px;   
+  border-radius: 999px;   
+}
+
+.dreite_sensor .temp_form {
+  position: absolute;
+  width: 228px;                        
+  height: 258px;
+  top: 38%;       
+  left: 12%;
+  background-color: #D9D9D9;
+  border-radius: 30px;
+}
+
+.dreite_sensor .temp_form .weather_logo {
+  position: absolute;
+  top: 15%;       
+  left: 45%;
+  width: 23px;
+  height: 23px;
+}
+
+.dreite_sensor .temp_form .background_logo_weather {
+  position: absolute;
+  top: 10.60%;       
+  left: 39.50%;
+  width: 50px;
+  height: 50px;
+  background-color: #636363;
+  border-radius: 100%;
+}
+
+.dreite_sensor .temp_form .temp_aktuelle_kyiv_3 {
+  position: absolute;
+  top: 35%;       
+  left: 20%;
+  width: 145px;
+  height: 70px;
+  background-color: #537084;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  -webkit-text-stroke: 1px black; 
+  border-radius: 999px;
+}
+
+.dreite_sensor .temp_form .max_text {
+  position: absolute;
+  top: 65%;       
+  left: 35%;
+  color: #DF3537;
+  font-size: 24px;
+  font-weight: bold;
+  width: 50px;
+  height: 50px;
+}
+
+.dreite_sensor .temp_form .max_temp_kyiv_3 {
+  position: absolute;
+  top: 78%;       
+  left: 18%;
+  width: 145px;
+  height: 44px;
+  background-color: #537084;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  -webkit-text-stroke: 1px black; 
+  border-radius: 999px;
+}
+
+.dreite_sensor .warnung_keine_hitze {
+  position: absolute;
+  top: 90%;       
+  left: 24%;
+  width: 147px;
+  height: 34px;
+  background-color: white;
+  box-shadow: 2px 2px 5px #00FF26;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  padding-left: 20px;
+  padding-top: 5px;
+  color: #00FF26;
+  border-radius: 999px;
+}
+
+.dreite_sensor .warnung_hitze {
+  position: absolute;
+  top: 90%;       
+  left: 24%;
+  width: 147px;
+  height: 34px;
+  background-color: white;
+  box-shadow: 2px 2px 5px #FF0000;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  padding-left: 20px;
+  padding-top: 5px;
+  color: #FF0000;
+  border-radius: 999px;
+}
+
+.dreite_sensor .keine_hitze_logo {
+  position: absolute;
+  top: 91%;       
+  left: 27%;
+  width: 21px;
+  height: 21px;
+}

@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+
+body {
+      margin: 0;
+      height: 100vh;                      
+      display: flex;
+      justify-content: center;             
+      align-items: center;                 
+      background: #43D3ED;
+}
+
+
+.box_form {
+    box-sizing: content-box;
+    border: 3px solid black;
+    width: 359px;
+    height: 541px;
+    border-radius: 50px;
+    background-color: white;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: 3px 2px 8px rgba(0,0,0,0.5);
+}
+
+.box_form .logo {
+  width: 80px;                        
+  height: auto;
+  position: absolute;
+  top: 15%;       
+  left: 50%;      
+  transform: translate(-50%, -50%);    
+}
+
+
+.box_form .loginname{
+  position: absolute;
+  top: 35%;        
+  left: 50px;     
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+
+.box_form .loginname_feld{
+  position: absolute;
+  top: 40%;        
+  left: 50px;     
+  font-size: 20px;
+  height: 40px;
+  width: 250px;
+  border-radius: 8px;
+  color: black;
+  background-color: rgba(218, 218, 218, 0.5);
+  box-shadow: 3px 2px 8px rgba(0,0,0,0.5);
+}
+
+.box_form .loginname_shadow{
+    position: absolute;
+    top: 41%;        
+    left: 60px; 
+    font-size: 16px;
+    color: rgb(147,147,147, 0.5)
+}
+
+
+.box_form .passwort{
+  position: absolute;
+  top: 50%;        
+  left: 50px;     
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+
+.box_form .passwort_feld{
+  position: absolute;
+  top: 55%;        
+  left: 50px;     
+  font-size: 20px;
+  height: 40px;
+  width: 250px;
+  border-radius: 8px;
+  color: black;
+  background-color: rgba(218, 218, 218, 0.5);
+  box-shadow: 3px 2px 8px rgba(0,0,0,0.5);
+}
+
+.box_form .passwort_shadow{
+    position: absolute;
+    top: 56%;        
+    left: 60px; 
+    font-size: 16px;
+    color: rgb(147,147,147, 0.5)
+}
+
+.box_form .login_button{
+    position: absolute;
+    top: 75%;        
+    left: 50px; 
+    width: 255px;   
+    height: 40px; 
+    background-color: black;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}

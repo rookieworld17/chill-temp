@@ -1,0 +1,5 @@
+# --- DB CONNECTION SETTINGS ---
+SetEnv DB_HOST
+SetEnv DB_NAME
+SetEnv DB_USER
+SetEnv DB_PASS

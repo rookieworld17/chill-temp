@@ -1,0 +1,940 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+
+body {
+      margin: 0;
+      height: 100vh;                      
+      display: flex;
+      justify-content: center;             
+      align-items: center;                 
+      background: #43D3ED;
+}
+
+.logo{
+width: 80px;                        
+  height: auto;
+  position: absolute;
+  top: 5%;       
+  left: 5%;      
+  transform: translate(-50%, -50%); 
+}
+
+/* Erste Linke Form kyiv*/
+.box_form_1 {
+    box-sizing: content-box;
+    border: 3px solid black;
+    width: 300px;
+    height: 550px;
+    border-radius: 50px;
+    background-color: white;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: 3px 2px 8px rgba(0,0,0,0.5);
+    left: 100px; 
+}
+
+
+.box_form_1 .logo_server {
+  width: 80px;                        
+  height: auto;
+  position: absolute;
+  top: 15%;       
+  left: 50%;      
+  transform: translate(-50%, -50%);    
+}
+
+.box_form_1 .city_1 {
+  height: 32px;
+  width: 127px;
+  position: absolute;
+  top: 30%;       
+  left: 30%;
+  background-color: #7FC7FF;
+  color: white;
+  font-size: 15px;
+  font-weight: bolder;
+  text-align: center;
+  border-radius: 999px;
+  border: 1.5px solid black;
+  -webkit-text-stroke: 0.7px black;
+  padding-top: 4px;
+  font-family: Angkor;
+  display: inline-block;
+}
+
+.box_form_1 .city_circel_1 {
+  position: absolute;
+  top: 31.50%;       
+  left: 34%;
+  width: 17px;
+  height: 17px;
+  background-color: #FFFFFF;
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+  border-radius: 50%; 
+  align-items: center;
+}
+
+
+.box_form_1 .logo_location_1 {
+  position: absolute;
+  top: 31.55%;       
+  left: 34.55%;
+  width: 15px;
+  height: 15px;
+}
+
+.box_form_1 .box_form_temp_1 {
+    box-sizing: content-box;
+    position: absolute;
+    border: 2px solid black;
+    width: 232px;
+    height: 220px;
+    top: 43%;       
+    left: 10%;
+    border-radius: 50px;
+    background-color: white;
+    box-shadow: 3px 2px 8px rgba(0,0,0,0.5);
+}
+
+.box_form_1 .open_button_1 {
+    position: absolute;
+    top: 87%;        
+    left: 13%; 
+    width: 217px;   
+    height: 40px; 
+    background-color: black;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+
+.box_form_1 .box_form_temp_1 .design_1 {
+  position: absolute;
+  top: 20%;       
+  left: 5%;
+  width: 22px;
+  height: 5px;
+  background-color: #D9D9D9;
+  border-radius: 999px; 
+}
+
+.box_form_1 .box_form_temp_1 .strasse_form_1 {
+  position: absolute;
+  top: 12%;       
+  left: 20%;
+  width: 158px;
+  height: 40px;
+  background-color: #D9D9D9;
+  font-size: 15px;
+  padding-left: 15px;
+  padding-top: 8px;
+  color: white;
+  font-weight: bolder;
+  -webkit-text-stroke: 0.5px black;
+  border-radius: 5%; 
+}
+
+
+.box_form_1 .box_form_temp_1 .temp_1 {
+  position: absolute;
+  top: 22%;       
+  left: 75%;
+  font-size: 9px;
+  color: white;
+  font-weight: bold;
+  -webkit-text-stroke: 0.3px black;
+}
+
+.box_form_1 .box_form_temp_1 .logo_weather_sonne_1 {
+  position: absolute;
+  top: 16%;       
+  left: 76%;
+  width: 11.33px;
+  height: 11.33px;
+}
+
+.box_form_1 .box_form_temp_1 .logo_weather_warnung_hitze_1 {
+  position: absolute;
+  top: 16%;       
+  left: 76%;
+  width: 11.33px;
+  height: 11.33px;
+}
+
+.box_form_1 .box_form_temp_1 .logo_weather_wolken_und_sonne_1 {
+  position: absolute;
+  top: 16%;       
+  left: 76%;
+  width: 11.33px;
+  height: 11.33px;
+}
+
+.box_form_1 .box_form_temp_1 .background_logo_weather_1 {
+  position: absolute;
+  top: 15%;       
+  left: 75%;
+  width: 17px;
+  height: 17px;
+  background-color: #636363;
+  border-radius: 100%;
+}
+
+/*Hier ist den zweite sensor in erste schrank*/
+.box_form_1 .box_form_temp_1 .design_2 {
+  position: absolute;
+  top: 50%;       
+  left: 5%;
+  width: 22px;
+  height: 5px;
+  background-color: #D9D9D9;
+  border-radius: 999px; 
+}
+
+.box_form_1 .box_form_temp_1 .strasse_form_2 {
+  position: absolute;
+  top: 42%;       
+  left: 20%;
+  width: 158px;
+  height: 40px;
+  background-color: #D9D9D9;
+  font-size: 15px;
+  padding-left: 15px;
+  padding-top: 8px;
+  color: white;
+  font-weight: bolder;
+  -webkit-text-stroke: 0.5px black;
+  border-radius: 5%; 
+}
+
+
+.box_form_1 .box_form_temp_1 .temp_2 {
+  position: absolute;
+  top: 52%;       
+  left: 75%;
+  font-size: 9px;
+  color: white;
+  font-weight: bold;
+  -webkit-text-stroke: 0.3px black;
+}
+
+.box_form_1 .box_form_temp_1 .logo_weather_sonne_2 {
+  position: absolute;
+  top: 46%;       
+  left: 76%;
+  width: 11.33px;
+  height: 11.33px;
+}
+
+.box_form_1 .box_form_temp_1 .logo_weather_warnung_hitze_2 {
+  position: absolute;
+  top: 46%;       
+  left: 76%;
+  width: 11.33px;
+  height: 11.33px;
+}
+
+.box_form_1 .box_form_temp_1 .logo_weather_wolken_und_sonne_2 {
+  position: absolute;
+  top: 46%;       
+  left: 76%;
+  width: 11.33px;
+  height: 11.33px;
+}
+
+.box_form_1 .box_form_temp_1 .background_logo_weather_2 {
+  position: absolute;
+  top: 44.50%;       
+  left: 75%;
+  width: 17px;
+  height: 17px;
+  background-color: #636363;
+  border-radius: 100%;
+}
+
+/*Hier ist den 3. sensor in erste schrank*/
+.box_form_1 .box_form_temp_1 .design_3 {
+  position: absolute;
+  top: 80%;       
+  left: 5%;
+  width: 22px;
+  height: 5px;
+  background-color: #D9D9D9;
+  border-radius: 999px; 
+}
+
+.box_form_1 .box_form_temp_1 .strasse_form_3 {
+  position: absolute;
+  top: 72%;       
+  left: 20%;
+  width: 158px;
+  height: 40px;
+  background-color: #D9D9D9;
+  font-size: 15px;
+  padding-left: 15px;
+  padding-top: 8px;
+  color: white;
+  font-weight: bolder;
+  -webkit-text-stroke: 0.5px black;
+  border-radius: 5%; 
+}
+
+
+.box_form_1 .box_form_temp_1 .temp_3 {
+  position: absolute;
+  top: 82%;       
+  left: 75%;
+  font-size: 9px;
+  color: white;
+  font-weight: bold;
+  -webkit-text-stroke: 0.3px black;
+}
+
+.box_form_1 .box_form_temp_1 .logo_weather_sonne_3 {
+  position: absolute;
+  top: 76%;       
+  left: 76%;
+  width: 11.33px;
+  height: 11.33px;
+}
+
+.box_form_1 .box_form_temp_1 .logo_weather_warnung_hitze_3 {
+  position: absolute;
+  top: 76%;       
+  left: 76%;
+  width: 11.33px;
+  height: 11.33px;
+}
+
+.box_form_1 .box_form_temp_1 .logo_weather_wolken_und_sonne_3 {
+  position: absolute;
+  top: 76%;       
+  left: 76%;
+  width: 11.33px;
+  height: 11.33px;
+}
+
+.box_form_1 .box_form_temp_1 .background_logo_weather_3 {
+  position: absolute;
+  top: 74.50%;       
+  left: 75%;
+  width: 17px;
+  height: 17px;
+  background-color: #636363;
+  border-radius: 100%;
+}
+
+/* --------------------------------------------------------------------------------------*/
+
+
+/* Mittler Form Baghdad*/
+.box_form_2 {
+    box-sizing: content-box;
+    border: 3px solid black;
+    width: 300px;
+    height: 550px;
+    border-radius: 50px;
+    background-color: white;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: 3px 2px 8px rgba(0,0,0,0.5);
+}
+
+.box_form_2 .logo_server {
+  width: 80px;                        
+  height: auto;
+  position: absolute;
+  top: 15%;       
+  left: 50%;      
+  transform: translate(-50%, -50%);    
+}
+
+.box_form_2 .city_2 {
+  height: 32px;
+  width: 127px;
+  position: absolute;
+  top: 30%;       
+  left: 30%;
+  background-color: #7FC7FF;
+  color: white;
+  font-size: 15px;
+  font-weight: bolder;
+  text-align: center;
+  border-radius: 999px;
+  border: 1.5px solid black;
+  -webkit-text-stroke: 0.7px black;
+  font-family: Angkor;
+  display: inline-block;
+  padding-top: 4px;
+  padding-left: 10px;
+}
+
+.box_form_2 .city_circel_2 {
+  position: absolute;
+  top: 31.50%;       
+  left: 34%;
+  width: 17px;
+  height: 17px;
+  background-color: #FFFFFF;
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+  border-radius: 50%; 
+  align-items: center;
+}
+
+
+.box_form_2 .logo_location_2 {
+  position: absolute;
+  top: 31.55%;       
+  left: 34.55%;
+  width: 15px;
+  height: 15px;
+}
+
+.box_form_2 .box_form_temp_2 {
+    box-sizing: content-box;
+    position: absolute;
+    border: 2px solid black;
+    width: 232px;
+    height: 220px;
+    top: 43%;       
+    left: 10%;
+    border-radius: 50px;
+    background-color: white;
+    box-shadow: 3px 2px 8px rgba(0,0,0,0.5);
+}
+
+.box_form_2 .open_button_2 {
+    position: absolute;
+    top: 87%;        
+    left: 13%; 
+    width: 217px;   
+    height: 40px; 
+    background-color: black;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+
+.box_form_2 .box_form_temp_2 .design_1 {
+  position: absolute;
+  top: 20%;       
+  left: 5%;
+  width: 22px;
+  height: 5px;
+  background-color: #D9D9D9;
+  border-radius: 999px; 
+}
+
+.box_form_2 .box_form_temp_2 .strasse_form_1 {
+  position: absolute;
+  top: 12%;       
+  left: 20%;
+  width: 158px;
+  height: 40px;
+  background-color: #D9D9D9;
+  font-size: 15px;
+  padding-left: 15px;
+  padding-top: 8px;
+  color: white;
+  font-weight: bolder;
+  -webkit-text-stroke: 0.5px black;
+  border-radius: 5%; 
+}
+
+
+.box_form_2 .box_form_temp_2 .temp_1 {
+  position: absolute;
+  top: 22%;       
+  left: 75%;
+  font-size: 9px;
+  color: white;
+  font-weight: bold;
+  -webkit-text-stroke: 0.3px black;
+}
+
+.box_form_2 .box_form_temp_2 .logo_weather_sonne_1 {
+  position: absolute;
+  top: 16%;       
+  left: 76%;
+  width: 11.33px;
+  height: 11.33px;
+}
+
+.box_form_2 .box_form_temp_2 .logo_weather_warnung_hitze_1 {
+  position: absolute;
+  top: 16%;       
+  left: 76%;
+  width: 11.33px;
+  height: 11.33px;
+}
+
+.box_form_2 .box_form_temp_2 .logo_weather_wolken_und_sonne_1 {
+  position: absolute;
+  top: 16%;       
+  left: 76%;
+  width: 11.33px;
+  height: 11.33px;
+}
+
+.box_form_2 .box_form_temp_2 .background_logo_weather_1 {
+  position: absolute;
+  top: 15%;       
+  left: 75%;
+  width: 17px;
+  height: 17px;
+  background-color: #636363;
+  border-radius: 100%;
+}
+
+/*Hier ist den zweite sensor in zweite schrank*/
+.box_form_2 .box_form_temp_2 .design_2 {
+  position: absolute;
+  top: 50%;       
+  left: 5%;
+  width: 22px;
+  height: 5px;
+  background-color: #D9D9D9;
+  border-radius: 999px; 
+}
+
+.box_form_2 .box_form_temp_2 .strasse_form_2 {
+  position: absolute;
+  top: 42%;       
+  left: 20%;
+  width: 158px;
+  height: 40px;
+  background-color: #D9D9D9;
+  font-size: 15px;
+  padding-left: 15px;
+  padding-top: 8px;
+  color: white;
+  font-weight: bolder;
+  -webkit-text-stroke: 0.5px black;
+  border-radius: 5%; 
+}
+
+
+.box_form_2 .box_form_temp_2 .temp_2 {
+  position: absolute;
+  top: 52%;       
+  left: 75%;
+  font-size: 9px;
+  color: white;
+  font-weight: bold;
+  -webkit-text-stroke: 0.3px black;
+}
+
+.box_form_2 .box_form_temp_2 .logo_weather_sonne_2 {
+  position: absolute;
+  top: 46%;       
+  left: 76%;
+  width: 11.33px;
+  height: 11.33px;
+}
+
+.box_form_2 .box_form_temp_2 .logo_weather_warnung_hitze_2 {
+  position: absolute;
+  top: 46%;       
+  left: 76%;
+  width: 11.33px;
+  height: 11.33px;
+}
+
+.box_form_2 .box_form_temp_2 .logo_weather_wolken_und_sonne_2 {
+  position: absolute;
+  top: 46%;       
+  left: 76%;
+  width: 11.33px;
+  height: 11.33px;
+}
+
+.box_form_2 .box_form_temp_2 .background_logo_weather_2 {
+  position: absolute;
+  top: 44.50%;       
+  left: 75%;
+  width: 17px;
+  height: 17px;
+  background-color: #636363;
+  border-radius: 100%;
+}
+
+/*Hier ist den 3. sensor in Zweite schrank*/
+.box_form_2 .box_form_temp_2 .design_3 {
+  position: absolute;
+  top: 80%;       
+  left: 5%;
+  width: 22px;
+  height: 5px;
+  background-color: #D9D9D9;
+  border-radius: 999px; 
+}
+
+.box_form_2 .box_form_temp_2 .strasse_form_3 {
+  position: absolute;
+  top: 72%;       
+  left: 20%;
+  width: 158px;
+  height: 40px;
+  background-color: #D9D9D9;
+  font-size: 15px;
+  padding-left: 15px;
+  padding-top: 8px;
+  color: white;
+  font-weight: bolder;
+  -webkit-text-stroke: 0.5px black;
+  border-radius: 5%; 
+}
+
+
+.box_form_2 .box_form_temp_2 .temp_3 {
+  position: absolute;
+  top: 82%;       
+  left: 75%;
+  font-size: 9px;
+  color: white;
+  font-weight: bold;
+  -webkit-text-stroke: 0.3px black;
+}
+
+.box_form_2 .box_form_temp_2 .logo_weather_sonne_3 {
+  position: absolute;
+  top: 76%;       
+  left: 76%;
+  width: 11.33px;
+  height: 11.33px;
+}
+
+.box_form_2 .box_form_temp_2 .logo_weather_warnung_hitze_3 {
+  position: absolute;
+  top: 76%;       
+  left: 76%;
+  width: 11.33px;
+  height: 11.33px;
+}
+
+.box_form_2 .box_form_temp_2 .logo_weather_wolken_und_sonne_3 {
+  position: absolute;
+  top: 76%;       
+  left: 76%;
+  width: 11.33px;
+  height: 11.33px;
+}
+
+.box_form_2 .box_form_temp_2 .background_logo_weather_3 {
+  position: absolute;
+  top: 74.50%;       
+  left: 75%;
+  width: 17px;
+  height: 17px;
+  background-color: #636363;
+  border-radius: 100%;
+}
+
+/* --------------------------------------------------------------------------------------*/
+
+/* Rechte Form Baghdad*/
+.box_form_3 {
+    box-sizing: content-box;
+    border: 3px solid black;
+    width: 300px;
+    height: 550px;
+    border-radius: 50px;
+    background-color: white;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: 3px 2px 8px rgba(0,0,0,0.5);
+    right: 100px;
+}
+
+
+.box_form_3 .logo_server {
+  width: 80px;                        
+  height: auto;
+  position: absolute;
+  top: 15%;       
+  left: 50%;      
+  transform: translate(-50%, -50%);    
+}
+
+.box_form_3 .city_3 {
+  height: 32px;
+  width: 127px;
+  position: absolute;
+  top: 30%;       
+  left: 30%;
+  background-color: #7FC7FF;
+  color: white;
+  font-size: 15px;
+  font-weight: bolder;
+  text-align: center;
+  border-radius: 999px;
+  border: 1.5px solid black;
+  -webkit-text-stroke: 0.7px black;
+  font-family: Angkor;
+  display: inline-block;
+  padding-top: 4px;
+  padding-left: 10px;
+}
+
+.box_form_3 .city_circel_3 {
+  position: absolute;
+  top: 31.50%;       
+  left: 34%;
+  width: 17px;
+  height: 17px;
+  background-color: #FFFFFF;
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+  border-radius: 50%; 
+  align-items: center;
+}
+
+
+.box_form_3 .logo_location_3 {
+  position: absolute;
+  top: 31.55%;       
+  left: 34.55%;
+  width: 15px;
+  height: 15px;
+}
+
+.box_form_3 .box_form_temp_3 {
+    box-sizing: content-box;
+    position: absolute;
+    border: 2px solid black;
+    width: 232px;
+    height: 220px;
+    top: 43%;       
+    left: 10%;
+    border-radius: 50px;
+    background-color: white;
+    box-shadow: 3px 2px 8px rgba(0,0,0,0.5);
+}
+
+.box_form_3 .open_button_3 {
+    position: absolute;
+    top: 87%;        
+    left: 13%; 
+    width: 217px;   
+    height: 40px; 
+    background-color: black;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+
+.box_form_3 .box_form_temp_3 .design_1 {
+  position: absolute;
+  top: 20%;       
+  left: 5%;
+  width: 22px;
+  height: 5px;
+  background-color: #D9D9D9;
+  border-radius: 999px; 
+}
+
+.box_form_3 .box_form_temp_3 .strasse_form_1 {
+  position: absolute;
+  top: 12%;       
+  left: 20%;
+  width: 158px;
+  height: 40px;
+  background-color: #D9D9D9;
+  font-size: 15px;
+  padding-left: 15px;
+  padding-top: 8px;
+  color: white;
+  font-weight: bolder;
+  -webkit-text-stroke: 0.5px black;
+  border-radius: 5%; 
+}
+
+
+.box_form_3 .box_form_temp_3 .temp_1 {
+  position: absolute;
+  top: 22%;       
+  left: 75%;
+  font-size: 9px;
+  color: white;
+  font-weight: bold;
+  -webkit-text-stroke: 0.3px black;
+}
+
+.box_form_3 .box_form_temp_3 .logo_weather_sonne_1 {
+  position: absolute;
+  top: 16%;       
+  left: 76%;
+  width: 11.33px;
+  height: 11.33px;
+}
+
+.box_form_3 .box_form_temp_3 .logo_weather_warnung_hitze_1 {
+  position: absolute;
+  top: 16%;       
+  left: 76%;
+  width: 11.33px;
+  height: 11.33px;
+}
+
+.box_form_3 .box_form_temp_3 .logo_weather_wolken_und_sonne_1 {
+  position: absolute;
+  top: 16%;       
+  left: 76%;
+  width: 11.33px;
+  height: 11.33px;
+}
+
+.box_form_3 .box_form_temp_3 .background_logo_weather_1 {
+  position: absolute;
+  top: 15%;       
+  left: 75%;
+  width: 17px;
+  height: 17px;
+  background-color: #636363;
+  border-radius: 100%;
+}
+
+/*Hier ist den zweite sensor in zweite schrank*/
+.box_form_3 .box_form_temp_3 .design_2 {
+  position: absolute;
+  top: 50%;       
+  left: 5%;
+  width: 22px;
+  height: 5px;
+  background-color: #D9D9D9;
+  border-radius: 999px; 
+}
+
+.box_form_3 .box_form_temp_3 .strasse_form_2 {
+  position: absolute;
+  top: 42%;       
+  left: 20%;
+  width: 158px;
+  height: 40px;
+  background-color: #D9D9D9;
+  font-size: 15px;
+  padding-left: 15px;
+  padding-top: 8px;
+  color: white;
+  font-weight: bolder;
+  -webkit-text-stroke: 0.5px black;
+  border-radius: 5%; 
+}
+
+
+.box_form_3 .box_form_temp_3 .temp_2 {
+  position: absolute;
+  top: 52%;       
+  left: 75%;
+  font-size: 9px;
+  color: white;
+  font-weight: bold;
+  -webkit-text-stroke: 0.3px black;
+}
+
+.box_form_3 .box_form_temp_3 .logo_weather_sonne_2 {
+  position: absolute;
+  top: 46%;       
+  left: 76%;
+  width: 11.33px;
+  height: 11.33px;
+}
+
+.box_form_3 .box_form_temp_3 .logo_weather_warnung_hitze_2 {
+  position: absolute;
+  top: 46%;       
+  left: 76%;
+  width: 11.33px;
+  height: 11.33px;
+}
+
+.box_form_3 .box_form_temp_3 .logo_weather_wolken_und_sonne_2 {
+  position: absolute;
+  top: 46%;       
+  left: 76%;
+  width: 11.33px;
+  height: 11.33px;
+}
+
+.box_form_3 .box_form_temp_3 .background_logo_weather_2 {
+  position: absolute;
+  top: 44.50%;       
+  left: 75%;
+  width: 17px;
+  height: 17px;
+  background-color: #636363;
+  border-radius: 100%;
+}
+
+/*Hier ist den 3. sensor in 3. schrank*/
+.box_form_3 .box_form_temp_3 .design_3 {
+  position: absolute;
+  top: 80%;       
+  left: 5%;
+  width: 22px;
+  height: 5px;
+  background-color: #D9D9D9;
+  border-radius: 999px; 
+}
+
+.box_form_3 .box_form_temp_3 .strasse_form_3 {
+  position: absolute;
+  top: 72%;       
+  left: 20%;
+  width: 158px;
+  height: 40px;
+  background-color: #D9D9D9;
+  font-size: 15px;
+  padding-left: 15px;
+  padding-top: 8px;
+  color: white;
+  font-weight: bolder;
+  -webkit-text-stroke: 0.5px black;
+  border-radius: 5%; 
+}
+
+
+.box_form_3 .box_form_temp_3 .temp_3 {
+  position: absolute;
+  top: 82%;       
+  left: 75%;
+  font-size: 9px;
+  color: white;
+  font-weight: bold;
+  -webkit-text-stroke: 0.3px black;
+}
+
+.box_form_3 .box_form_temp_3 .logo_weather_sonne_3 {
+  position: absolute;
+  top: 76%;       
+  left: 76%;
+  width: 11.33px;
+  height: 11.33px;
+}
+
+.box_form_3 .box_form_temp_3 .logo_weather_warnung_hitze_3 {
+  position: absolute;
+  top: 76%;       
+  left: 76%;
+  width: 11.33px;
+  height: 11.33px;
+}
+
+.box_form_3 .box_form_temp_3 .logo_weather_wolken_und_sonne_3 {
+  position: absolute;
+  top: 76%;       
+  left: 76%;
+  width: 11.33px;
+  height: 11.33px;
+}
+
+.box_form_3 .box_form_temp_3 .background_logo_weather_3 {
+  position: absolute;
+  top: 74.50%;       
+  left: 75%;
+  width: 17px;
+  height: 17px;
+  background-color: #636363;
+  border-radius: 100%;
+}
