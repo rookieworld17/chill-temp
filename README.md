@@ -11,7 +11,7 @@
 
 1. Klonen Sie das Repository:
 ```bash
-  git clone 
+  git clone https://github.com/rookieworld17/chill-temp.git
 ```
 
 2. Führen Sie den Befehl im Projektordner aus:
