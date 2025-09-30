@@ -1,0 +1,41 @@
+# Файлы конфигурации IDE и редакторов кода
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Файлы, генерируемые операционной системой
+.DS_Store
+Thumbs.db
+
+# Директории с зависимостями
+# Например, для Node.js или PHP/Composer
+node_modules/
+vendor/
+
+# Лог-файлы
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Файлы переменных окружения
+# Содержат чувствительные данные и не должны быть в репозитории
+.env
+.env.local
+.env.*.local
+
+# Не игнорировать файлы-примеры для переменных окружения
+!/.env.example
+
+# Временные файлы и архивы
+*.tmp
+*.temp
+*.zip
+*.rar
+*.gz
+*.tgz
+
+# Файлы конфигурации сервера, такие как .htaccess
+.htaccess
