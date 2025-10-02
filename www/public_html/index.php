@@ -19,10 +19,13 @@
     <input type="password" class="passwort_feld" id="exampleInputPassword1">
     <label class="passwort_shadow">Passwort</label> 
 
+    <!-- Login-Button, der die JavaScript-Funktion 'loginUser' beim Klick aufruft -->
     <button class="login_button" onclick="loginUser()">Login</button>
     </div>
 
+    <!-- Einbindung des JavaScript für die Login-Logik -->
     <script src="assets/js/login.js" defer></script>
+    <!-- Einbindung des Bootstrap JavaScript-Bundles für zusätzliche Funktionalitäten -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
   </body>
 </html>
